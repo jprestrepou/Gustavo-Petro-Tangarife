@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000283] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002150] (robot) JobStarted: {'identifier': 'robot'}
+[0.099704] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300323] (-) TimerEvent: {}
+[0.400664] (-) TimerEvent: {}
+[0.501051] (-) TimerEvent: {}
+[0.601412] (-) TimerEvent: {}
+[0.701725] (-) TimerEvent: {}
+[0.802020] (-) TimerEvent: {}
+[0.902326] (-) TimerEvent: {}
+[1.002704] (-) TimerEvent: {}
+[1.103032] (-) TimerEvent: {}
+[1.203369] (-) TimerEvent: {}
+[1.303698] (-) TimerEvent: {}
+[1.404003] (-) TimerEvent: {}
+[1.504300] (-) TimerEvent: {}
+[1.604573] (-) TimerEvent: {}
+[1.704832] (-) TimerEvent: {}
+[1.805100] (-) TimerEvent: {}
+[1.905450] (-) TimerEvent: {}
+[1.970852] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/jpru/ros2_robot/build/robot/build', 'install', '--record', '/home/jpru/ros2_robot/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jpru/ros2_robot/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpru', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jpru', 'OLDPWD': '/home/jpru/ros2_robot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1664', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jpru', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpru', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/jpru/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jpru-desktop:@/tmp/.ICE-unix/1625,unix/jpru-desktop:/tmp/.ICE-unix/1625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/62acbf04_a4e2_4711_9253_c256848c5a2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.DYTM82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.146', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpru/ros2_robot/build/robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jpru/ros2_robot/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.005552] (-) TimerEvent: {}
+[2.105852] (-) TimerEvent: {}
+[2.206132] (-) TimerEvent: {}
+[2.306415] (-) TimerEvent: {}
+[2.406702] (-) TimerEvent: {}
+[2.424917] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.425393] (robot) StdoutLine: {'line': b'creating ../../build/robot/robot.egg-info\n'}
+[2.459477] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[2.459903] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[2.460241] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[2.460414] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[2.460552] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[2.460735] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[2.506806] (-) TimerEvent: {}
+[2.536044] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[2.537014] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[2.537241] (robot) StdoutLine: {'line': b'running build\n'}
+[2.537383] (robot) StdoutLine: {'line': b'running build_py\n'}
+[2.537532] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build\n'}
+[2.537678] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib\n'}
+[2.537854] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot\n'}
+[2.537988] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot\n'}
+[2.538153] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion\n'}
+[2.538295] (robot) StdoutLine: {'line': b'copying robot/planificacion/nodo_navegacion.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion\n'}
+[2.538498] (robot) StdoutLine: {'line': b'copying robot/planificacion/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion\n'}
+[2.538698] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion\n'}
+[2.538835] (robot) StdoutLine: {'line': b'copying robot/comunicacion/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion\n'}
+[2.538967] (robot) StdoutLine: {'line': b'copying robot/comunicacion/nodo_mqtt_rx.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion\n'}
+[2.539106] (robot) StdoutLine: {'line': b'copying robot/comunicacion/nodo_mqtt_tx.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion\n'}
+[2.539314] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico\n'}
+[2.539469] (robot) StdoutLine: {'line': b'copying robot/diagnostico/nodo_monitor.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico\n'}
+[2.539609] (robot) StdoutLine: {'line': b'copying robot/diagnostico/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico\n'}
+[2.539803] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores\n'}
+[2.539924] (robot) StdoutLine: {'line': b'copying robot/sensores/nodo_imu.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores\n'}
+[2.540074] (robot) StdoutLine: {'line': b'copying robot/sensores/nodo_lidar.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores\n'}
+[2.540208] (robot) StdoutLine: {'line': b'copying robot/sensores/nodo_ultrasonico.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores\n'}
+[2.540348] (robot) StdoutLine: {'line': b'copying robot/sensores/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores\n'}
+[2.540578] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores\n'}
+[2.540704] (robot) StdoutLine: {'line': b'copying robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores\n'}
+[2.540850] (robot) StdoutLine: {'line': b'copying robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores\n'}
+[2.540991] (robot) StdoutLine: {'line': b'copying robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores\n'}
+[2.541129] (robot) StdoutLine: {'line': b'copying robot/actuadores/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores\n'}
+[2.541324] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz\n'}
+[2.541453] (robot) StdoutLine: {'line': b'copying robot/interfaz/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz\n'}
+[2.541589] (robot) StdoutLine: {'line': b'copying robot/interfaz/nodo_teleop_teclado.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz\n'}
+[2.542267] (robot) StdoutLine: {'line': b'running install\n'}
+[2.551593] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[2.586131] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot\n'}
+[2.586324] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion\n'}
+[2.586453] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion/nodo_navegacion.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion\n'}
+[2.586609] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion\n'}
+[2.586764] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion\n'}
+[2.586894] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion\n'}
+[2.587018] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/nodo_mqtt_rx.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion\n'}
+[2.587140] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/nodo_mqtt_tx.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion\n'}
+[2.587306] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico\n'}
+[2.587496] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico/nodo_monitor.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico\n'}
+[2.587641] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico\n'}
+[2.587900] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot\n'}
+[2.588107] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores\n'}
+[2.588256] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_imu.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores\n'}
+[2.588407] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_lidar.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores\n'}
+[2.588569] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_ultrasonico.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores\n'}
+[2.590826] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores\n'}
+[2.591067] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores\n'}
+[2.591156] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores\n'}
+[2.591236] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores\n'}
+[2.591324] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores\n'}
+[2.591455] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores\n'}
+[2.591538] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz\n'}
+[2.591632] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz\n'}
+[2.591711] (robot) StdoutLine: {'line': b'copying /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz/nodo_teleop_teclado.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz\n'}
+[2.591788] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion/nodo_navegacion.py to nodo_navegacion.cpython-312.pyc\n'}
+[2.591866] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion/__init__.py to __init__.cpython-312.pyc\n'}
+[2.591976] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/__init__.py to __init__.cpython-312.pyc\n'}
+[2.592154] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/nodo_mqtt_rx.py to nodo_mqtt_rx.cpython-312.pyc\n'}
+[2.592421] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/nodo_mqtt_tx.py to nodo_mqtt_tx.cpython-312.pyc\n'}
+[2.592666] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico/nodo_monitor.py to nodo_monitor.cpython-312.pyc\n'}
+[2.592909] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico/__init__.py to __init__.cpython-312.pyc\n'}
+[2.593121] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/__init__.py to __init__.cpython-312.pyc\n'}
+[2.593374] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_imu.py to nodo_imu.cpython-312.pyc\n'}
+[2.593620] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_lidar.py to nodo_lidar.cpython-312.pyc\n'}
+[2.593825] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_ultrasonico.py to nodo_ultrasonico.cpython-312.pyc\n'}
+[2.594031] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/__init__.py to __init__.cpython-312.pyc\n'}
+[2.594230] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_motor.py to nodo_motor.cpython-312.pyc\n'}
+[2.594496] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_led.py to nodo_led.cpython-312.pyc\n'}
+[2.594701] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_servo.py to nodo_servo.cpython-312.pyc\n'}
+[2.594901] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/__init__.py to __init__.cpython-312.pyc\n'}
+[2.595102] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz/__init__.py to __init__.cpython-312.pyc\n'}
+[2.595341] (robot) StdoutLine: {'line': b'byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz/nodo_teleop_teclado.py to nodo_teleop_teclado.cpython-312.pyc\n'}
+[2.595549] (robot) StdoutLine: {'line': b'running install_data\n'}
+[2.595684] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/share/ament_index\n'}
+[2.595789] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index\n'}
+[2.595896] (robot) StdoutLine: {'line': b'creating /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index/packages\n'}
+[2.596002] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index/packages\n'}
+[2.596098] (robot) StdoutLine: {'line': b'copying package.xml -> /home/jpru/ros2_robot/install/robot/share/robot\n'}
+[2.596229] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.606862] (-) TimerEvent: {}
+[2.636323] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info\n'}
+[2.637527] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.706973] (-) TimerEvent: {}
+[2.807258] (-) TimerEvent: {}
+[2.881067] (robot) StdoutLine: {'line': b'Installing nodo_imu script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.881391] (robot) StdoutLine: {'line': b'Installing nodo_led script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.881539] (robot) StdoutLine: {'line': b'Installing nodo_lidar script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.881697] (robot) StdoutLine: {'line': b'Installing nodo_monitor script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.881852] (robot) StdoutLine: {'line': b'Installing nodo_motor script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.881982] (robot) StdoutLine: {'line': b'Installing nodo_mqtt_rx script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.882118] (robot) StdoutLine: {'line': b'Installing nodo_mqtt_tx script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.882246] (robot) StdoutLine: {'line': b'Installing nodo_navegacion script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.882389] (robot) StdoutLine: {'line': b'Installing nodo_servo script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.882530] (robot) StdoutLine: {'line': b'Installing nodo_teleop_teclado script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.882666] (robot) StdoutLine: {'line': b'Installing nodo_ultrasonico script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.883580] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/jpru/ros2_robot/build/robot/install.log'\n"}
+[2.907349] (-) TimerEvent: {}
+[2.970673] (robot) CommandEnded: {'returncode': 0}
+[2.990383] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[2.991803] (-) EventReactorShutdown: {}

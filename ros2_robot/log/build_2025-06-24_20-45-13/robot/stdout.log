@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/robot/robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+writing requirements to ../../build/robot/robot.egg-info/requires.txt
+writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+running install
+running install_lib
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_motor.py to nodo_motor.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_led.py to nodo_led.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_servo.py to nodo_servo.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot/robot.egg-info to /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nodo_imu script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_led script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_lidar script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_monitor script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_motor script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_mqtt_rx script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_mqtt_tx script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_navegacion script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_servo script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_teleop_teclado script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_ultrasonico script to /home/jpru/ros2_robot/install/robot/lib/robot
+writing list of installed files to '/home/jpru/ros2_robot/build/robot/install.log'

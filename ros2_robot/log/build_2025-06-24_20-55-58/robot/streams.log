@@ -1,0 +1,31 @@
+[1.557s] Invoking command in '/home/jpru/ros2_robot/src/robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jpru/ros2_robot/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/jpru/ros2_robot/build/robot/build install --record /home/jpru/ros2_robot/build/robot/install.log --single-version-externally-managed install_data
+[2.013s] running egg_info
+[2.049s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[2.050s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[2.053s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[2.054s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[2.054s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[2.132s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[2.133s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[2.134s] running build
+[2.134s] running build_py
+[2.136s] running install
+[2.145s] running install_lib
+[2.183s] running install_data
+[2.183s] running install_egg_info
+[2.223s] removing '/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info' (and everything under it)
+[2.223s] Copying ../../build/robot/robot.egg-info to /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info
+[2.225s] running install_scripts
+[2.473s] Installing nodo_imu script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.473s] Installing nodo_led script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.474s] Installing nodo_lidar script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.475s] Installing nodo_monitor script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.476s] Installing nodo_motor script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.476s] Installing nodo_mqtt_rx script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.477s] Installing nodo_mqtt_tx script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.478s] Installing nodo_navegacion script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.479s] Installing nodo_servo script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.479s] Installing nodo_teleop_teclado script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.480s] Installing nodo_ultrasonico script to /home/jpru/ros2_robot/install/robot/lib/robot
+[2.482s] writing list of installed files to '/home/jpru/ros2_robot/build/robot/install.log'
+[2.570s] Invoked command in '/home/jpru/ros2_robot/src/robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jpru/ros2_robot/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/jpru/ros2_robot/build/robot/build install --record /home/jpru/ros2_robot/build/robot/install.log --single-version-externally-managed install_data

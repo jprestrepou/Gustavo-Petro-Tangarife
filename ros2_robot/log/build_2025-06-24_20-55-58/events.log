@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000773] (robot) JobStarted: {'identifier': 'robot'}
+[0.099722] (-) TimerEvent: {}
+[0.200053] (-) TimerEvent: {}
+[0.300369] (-) TimerEvent: {}
+[0.400731] (-) TimerEvent: {}
+[0.501181] (-) TimerEvent: {}
+[0.601625] (-) TimerEvent: {}
+[0.701938] (-) TimerEvent: {}
+[0.802245] (-) TimerEvent: {}
+[0.902564] (-) TimerEvent: {}
+[1.002866] (-) TimerEvent: {}
+[1.103167] (-) TimerEvent: {}
+[1.203448] (-) TimerEvent: {}
+[1.303735] (-) TimerEvent: {}
+[1.404017] (-) TimerEvent: {}
+[1.504351] (-) TimerEvent: {}
+[1.555002] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/jpru/ros2_robot/build/robot/build', 'install', '--record', '/home/jpru/ros2_robot/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jpru/ros2_robot/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jpru', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jpru', 'OLDPWD': '/home/jpru/ros2_robot/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1664', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jpru/ros2_robot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jpru', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jpru', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/jpru/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jpru-desktop:@/tmp/.ICE-unix/1625,unix/jpru-desktop:/tmp/.ICE-unix/1625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/62acbf04_a4e2_4711_9253_c256848c5a2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.DYTM82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.146', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jpru/ros2_robot/install/robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jpru/ros2_robot/build/robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jpru/ros2_robot/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages:/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.604471] (-) TimerEvent: {}
+[1.704892] (-) TimerEvent: {}
+[1.805218] (-) TimerEvent: {}
+[1.905531] (-) TimerEvent: {}
+[2.005862] (-) TimerEvent: {}
+[2.013780] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.050274] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[2.050691] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[2.054215] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[2.054783] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[2.055484] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[2.105948] (-) TimerEvent: {}
+[2.133282] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[2.134606] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[2.134886] (robot) StdoutLine: {'line': b'running build\n'}
+[2.135028] (robot) StdoutLine: {'line': b'running build_py\n'}
+[2.136709] (robot) StdoutLine: {'line': b'running install\n'}
+[2.146112] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[2.183678] (robot) StdoutLine: {'line': b'running install_data\n'}
+[2.184189] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.206027] (-) TimerEvent: {}
+[2.224188] (robot) StdoutLine: {'line': b"removing '/home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.224646] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info\n'}
+[2.225887] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.306124] (-) TimerEvent: {}
+[2.406429] (-) TimerEvent: {}
+[2.474247] (robot) StdoutLine: {'line': b'Installing nodo_imu script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.474601] (robot) StdoutLine: {'line': b'Installing nodo_led script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.475369] (robot) StdoutLine: {'line': b'Installing nodo_lidar script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.476035] (robot) StdoutLine: {'line': b'Installing nodo_monitor script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.476796] (robot) StdoutLine: {'line': b'Installing nodo_motor script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.477544] (robot) StdoutLine: {'line': b'Installing nodo_mqtt_rx script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.478287] (robot) StdoutLine: {'line': b'Installing nodo_mqtt_tx script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.479010] (robot) StdoutLine: {'line': b'Installing nodo_navegacion script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.479720] (robot) StdoutLine: {'line': b'Installing nodo_servo script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.480458] (robot) StdoutLine: {'line': b'Installing nodo_teleop_teclado script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.481227] (robot) StdoutLine: {'line': b'Installing nodo_ultrasonico script to /home/jpru/ros2_robot/install/robot/lib/robot\n'}
+[2.482849] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/jpru/ros2_robot/build/robot/install.log'\n"}
+[2.506547] (-) TimerEvent: {}
+[2.571398] (robot) CommandEnded: {'returncode': 0}
+[2.585992] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[2.587438] (-) EventReactorShutdown: {}

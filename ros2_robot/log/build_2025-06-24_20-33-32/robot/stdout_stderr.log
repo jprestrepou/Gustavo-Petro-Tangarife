@@ -1,0 +1,105 @@
+running egg_info
+creating ../../build/robot/robot.egg-info
+writing ../../build/robot/robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+writing requirements to ../../build/robot/robot.egg-info/requires.txt
+writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jpru/ros2_robot/build/robot/build
+creating /home/jpru/ros2_robot/build/robot/build/lib
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot
+copying robot/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion
+copying robot/planificacion/nodo_navegacion.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion
+copying robot/planificacion/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion
+copying robot/comunicacion/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion
+copying robot/comunicacion/nodo_mqtt_rx.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion
+copying robot/comunicacion/nodo_mqtt_tx.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico
+copying robot/diagnostico/nodo_monitor.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico
+copying robot/diagnostico/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores
+copying robot/sensores/nodo_imu.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores
+copying robot/sensores/nodo_lidar.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores
+copying robot/sensores/nodo_ultrasonico.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores
+copying robot/sensores/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+copying robot/actuadores/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores
+creating /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz
+copying robot/interfaz/__init__.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz
+copying robot/interfaz/nodo_teleop_teclado.py -> /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz
+running install
+running install_lib
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion/nodo_navegacion.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/planificacion/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/nodo_mqtt_rx.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/comunicacion/nodo_mqtt_tx.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico/nodo_monitor.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/diagnostico/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_imu.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_lidar.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/nodo_ultrasonico.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/sensores/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_motor.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_led.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/nodo_servo.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/actuadores/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores
+creating /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz/__init__.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz
+copying /home/jpru/ros2_robot/build/robot/build/lib/robot/interfaz/nodo_teleop_teclado.py -> /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion/nodo_navegacion.py to nodo_navegacion.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/planificacion/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/nodo_mqtt_rx.py to nodo_mqtt_rx.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/comunicacion/nodo_mqtt_tx.py to nodo_mqtt_tx.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico/nodo_monitor.py to nodo_monitor.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/diagnostico/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_imu.py to nodo_imu.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_lidar.py to nodo_lidar.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/nodo_ultrasonico.py to nodo_ultrasonico.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/sensores/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_motor.py to nodo_motor.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_led.py to nodo_led.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/nodo_servo.py to nodo_servo.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/actuadores/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot/interfaz/nodo_teleop_teclado.py to nodo_teleop_teclado.cpython-312.pyc
+running install_data
+creating /home/jpru/ros2_robot/install/robot/share/ament_index
+creating /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index
+creating /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index/packages
+copying resource/robot -> /home/jpru/ros2_robot/install/robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/jpru/ros2_robot/install/robot/share/robot
+running install_egg_info
+Copying ../../build/robot/robot.egg-info to /home/jpru/ros2_robot/install/robot/lib/python3.12/site-packages/robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nodo_imu script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_led script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_lidar script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_monitor script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_motor script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_mqtt_rx script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_mqtt_tx script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_navegacion script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_servo script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_teleop_teclado script to /home/jpru/ros2_robot/install/robot/lib/robot
+Installing nodo_ultrasonico script to /home/jpru/ros2_robot/install/robot/lib/robot
+writing list of installed files to '/home/jpru/ros2_robot/build/robot/install.log'
